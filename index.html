@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    
+    <title>ODIN Sign-up Page</title>
+</head>
+
+<body>
+
+    <div class="grid  sm:grid-cols-12">
+        <div class="h-screen  bg-orange-500 shadow-xl sm:col-span-4 hidden sm:block">
+            <img class="h-screen w-screen"
+                src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="no image" >
+
+
+        </div>
+        <div class="h-screen  bg-[#F9FAFB]  sm:col-span-8">
+            <div>
+                <h1 class=" flex ml-10 text-left font-semibold mt-15 ">This is not a real online service! You know you
+                    need something like this in your life to help you realize your deepest dreams. Sign up now to get
+                    started</h1>
+                <h1 class="font-semibold ml-10 mt-5">You know you want to.</h1>
+            </div>
+            <div class="pt-3 pl-10 pr-10 pb-3 mt-4 bg-[#FFFFFF] ">
+                <h1 class="font-sans text-xl font-semibold ">Let’s do this!</h1>
+                <form class="grid text-xs  gap-4 mt-5 sm:grid-cols-2 grid-cols-1">
+                    <div><label class="block" for="first-name">FIRST NAME</label>
+                        <input class="border-1 rounded text-xl border-b-black" type="text" id="first-name"
+                            name="first-name" required>
+                    </div>
+
+                    <div>
+                        <label class="block" for="last-name">LAST NAME</label>
+                        <input class="border-1 rounded text-xl border-b-black" type="text" id="last-name"
+                            name="last-name" class="highlight" required>
+                    </div>
+
+                    <div> <label class="block" for="email">EMAIL</label>
+                        <input class="border-1 rounded text-xl border-b-black" type="email" id="email" name="email"
+                            required>
+                    </div>
+
+                    <div><label class="block" for="phone">PHONE NUMBER</label>
+                        <input class="border-1 rounded text-xl font-xs border-b-black" type="tel" id="phone"
+                            name="phone">
+                    </div>
+
+                    <div><label class="block" for="password">PASSWORD</label>
+                        <input class="border-1 rounded text-xl  border-red-700" type="password" id="password"
+                            name="password" class="error" required>
+                    </div>
+
+                    <div> <label class="block" for="confirm-password">CONFIRM PASSWORD</label>
+                        <input class="border-1 rounded text-xl border-red-700" type="password" id="confirm-password"
+                            name="confirm-password" class="error" required>
+                    </div>
+
+            </div>
+            <div class="ml-10 mt-5">
+                <button type="submit" class="bg-[#596D48] px-10 py-2 rounded text-white font-semibold">Create
+                    Account</button>
+                <p class="mt-5">Already have an account? <a href="http://" class="text-[#596D48]">Log in</a></p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
